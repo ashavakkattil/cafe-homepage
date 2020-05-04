@@ -7,16 +7,16 @@
         <p class="q-mb-xs">with #loren's to get featured and sweet delights</p>
       </div>
       <div class="q-gutter-xl row justify-center q-my-md">
-        <div class="col-2 q-pa-none">
+        <div class="col-sm-2 col-xs-11 q-pa-none">
           <q-img class="rounded-borders full-height" src="../assets/insta-1.jpg" />
         </div>
-        <div class="col-2 q-pa-none">
+        <div class="col-sm-2 col-xs-11 q-pa-none">
           <q-img class="rounded-borders full-height" src="../assets/insta-2.jpeg" />
         </div>
-        <div class="col-2 q-pa-none">
+        <div class="col-sm-2 col-xs-11 q-pa-none">
           <q-img class="rounded-borders full-height" src="../assets/insta-3.jpg" />
         </div>
-        <div class="col-2 q-pa-none">
+        <div class="col-sm-2 col-xs-11 q-pa-none">
           <q-img class="rounded-borders full-height" src="../assets/insta-4.jpg" />
         </div>
       </div>

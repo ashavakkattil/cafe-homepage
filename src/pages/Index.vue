@@ -26,18 +26,22 @@
     <img-slider></img-slider>
     <menu-gallery></menu-gallery>
     <insta-gallery></insta-gallery>
+    <!-- <contact-us></contact-us> -->
   </q-page>
 </template>
 
 <script>
 import ImgSlider from "../components/HotelImageSlider";
-import MenuGallery from '../components/MenuGallery'
-import InstaGallery from '../components/InstaGallery'
+import MenuGallery from "../components/MenuGallery";
+import InstaGallery from "../components/InstaGallery";
+// import ContactUs from '../components/ContactUs'
 
 export default {
   name: "PageIndex",
   components: {
-    ImgSlider, MenuGallery, InstaGallery
+    ImgSlider,
+    MenuGallery,
+    InstaGallery
   },
   data() {
     return {};
@@ -60,5 +64,9 @@ export default {
   .image-subheading {
     font-size: 30px;
   }
+}
+.app-footer {
+  background-color: transparent;
+  color: inherit;
 }
 </style>
