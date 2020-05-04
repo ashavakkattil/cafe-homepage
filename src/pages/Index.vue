@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-ma-xl">
     <div class="q-mb-xl">
-      <q-img src="../assets/web-waffles.jpg" height="850px" class="hero-image">
+      <q-img src="../assets/hero-image.jpg" height="850px" class="hero-image">
         <div class="text-black hero-image-text">
           <div class="image-caption">Loren's Cafe</div>
           <div class="image-subheading q-mb-lg">Breakfast, brunch and some more breakfast</div>
@@ -23,12 +23,20 @@
         <p class="q-mb-xs">took a galley of type and scrambled it to make a type specimen book</p>
       </div>
     </div>
+    <img-slider></img-slider>
   </q-page>
 </template>
 
 <script>
+import ImgSlider from "../components/HotelImageSlider";
 export default {
-  name: "PageIndex"
+  name: "PageIndex",
+  components: {
+    ImgSlider
+  },
+  data() {
+    return {};
+  }
 };
 </script>
 <style lang="scss">
