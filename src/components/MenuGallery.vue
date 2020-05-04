@@ -19,7 +19,7 @@
       <div class="row">
         <div style="height: 400px ; width: 55%;" class="bg-accent left-container">
           <div class="menu-text-container text-right coffee-panel">
-            <div class="text-h2 q-my-lg">Sit-n-Indulge</div>
+            <div class="text-h2 q-my-lg">Grab-n-Go</div>
             <div class="text-h4 q-mb-sm">Great breakfast, hearty brunch and Summer cocktails</div>
             <div class="text-h4">If it's not chocolate, it's not breakfast.</div>
             <q-btn class="q-my-lg" color="primary" size="xl">Our menu</q-btn>

@@ -25,17 +25,19 @@
     </div>
     <img-slider></img-slider>
     <menu-gallery></menu-gallery>
+    <insta-gallery></insta-gallery>
   </q-page>
 </template>
 
 <script>
 import ImgSlider from "../components/HotelImageSlider";
 import MenuGallery from '../components/MenuGallery'
+import InstaGallery from '../components/InstaGallery'
 
 export default {
   name: "PageIndex",
   components: {
-    ImgSlider, MenuGallery
+    ImgSlider, MenuGallery, InstaGallery
   },
   data() {
     return {};
